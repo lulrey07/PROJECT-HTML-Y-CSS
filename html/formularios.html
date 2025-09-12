@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Agregar un formulario</h1>
+    <h2>Etiqueta form</h2>
+    <p>Los formularios sirven para pedir datos a los usuarios y dependiendo el tipo de datos que quieramos recopilar del usuario
+        usaremos un Inpuy diferente. Todos los datos  recolectados en los distintos input dentro del TAG form se enviaran al mismo tiempo
+        hacia un servidor. Siempre hay que definir dentro de form otra etiqueta llama input y usar la propiedad type="tipo_input" para defirnir
+    que tipo de input es. 
+En este caso un type=text que seria un textbox </p>
+    <ol>
+        <li>text -> textbox</li>
+        <li>email -> valida que el texto que se ingrese sea en formato mail.</li>
+        <li>password -> lo que se ingresa sera con ******.</li>
+        <li>checkbox -> para tildar una opcion.</li>
+        <li>fadio -> Parecido al checkbox pero solo se puede elegir una op.</li>
+        <li>file -> permite subir un archivo desde tu memoria fisica.</li>
+        <li>date -> Nos perite ingresar una fecha con un calendario.</li>
+        <li>submit -> boton de enviar.</li>
+    </ol>
+    <form>
+        <input type="text" required name="texto" placeholder="Ingresa un text">
+        <input type="email"required>
+        <input type="password"required>
+        <input type="checkbox">
+        <input type="radio">
+        <input type="file">
+        <input type="date">
+        <input type="submit">
+    </form>
+
+    <h2>4 Princiales Propiedades del TAG Input</h2>
+    <ol>
+        <li>required:
+            Valida que el campo del input sea si o si completado con el formato del tipo de input que es. Si no esta completado arroja una advertencia y
+            no me dejara enviar el formulario. Es decir obliga al usuario a escribir algo. Es un atributo de funcionalidad.
+            Tambien se puede complementar con el atributo/propiedad "minlength" para indicar el minimo de letras que debe ingresar
+        </li>
+        <li>
+            name:
+            Es un nombre identificador del input. Es decir define como se llama cada campo.
+            El servidor resive el nombre de este campo para poder identificarlo. Es un atributo de configuracion interna.
+            Ejemplo:
+            input type="password" required name=password
+        </li>
+        <li>
+            placeholder:
+            Es una pequeña descripción en dicho input o campo que indica que hay que completar y desaparece cuando el usuaria comienza a escribir. 
+        </li>
+
+    </ol>
+    
+    
+</body>
+</html>
