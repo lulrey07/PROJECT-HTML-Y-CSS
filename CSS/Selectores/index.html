@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <title>Enlazando CSS</title>
+    
+
+</head>
+<body>
+    <H1>TITULO</H1>
+    <p>Las propiedades contiene los elementos html no son atributos.
+        Existen 3 tipos de forma de enlasar html.
+    </p>
+    <ol>
+        
+        <li style="color:blue; font-size:20px;">
+        Estilos en linea: Ya que se le dara estilo en una sola linea de codigo utilizado el ATRIBUTO "style" en una etiqueta.
+        No es recomendado ya que se convina css con html y no estan ceparados por secciones
+        </li>
+
+        <li>
+            Usando "style" como una etiqueta(TAG): Aunque de esta manera esta separada aun asi no es recomendable, ya que el archivo hmtl se volveria demaciado largo. Lo ideal es tenerlos en archivos separados.
+        </li>
+
+        <li>
+            TAG LINK: Linquea una hoja de estilo que usualmente a esta hoja de estilo se lo caloca en el Head(cabeza) usando el atributo: rel = "stylsheet" hred="nombre_del_archivo.css" y asi ya se encuentra vinculado el archivos css con el html. 
+            Esta es la manera mas recomendable.
+        </li>
+    </ol>
+
+        <style>
+            li{
+                color:brown
+            }
+            
+            
+        </style>
+
+    <h2> 
+        SELECTORES:
+    </h2> 
+       
+        <h3 class="faltante">
+            Clases: Atributo "class"
+        </h3>
+
+        <p class="faltante">
+            Este atributo permite aplicar codigo css de manera independiente a cada TAG que tenga el mismo tipo de clase.
+            La forma de hacerlo en css es: .nombre_de_la_clase en esta caso .faltante{ codigo css}
+        </p>
+        
+        <h3>
+            ID: Atributo "id"   
+        </h3>
+        <p id="unico">  
+            Este atributo permite aplicar codigo css a un solo elemento en toda la pagina, ya que es unico.
+            La forma de hacerlo en css es: #nombre_del_id en esta caso #unico{ codigo css}
+        </p>
+
+        <h2> Propiedades de texto y fuente </h2>
+        <a href="../Selectores/Propiedades_texto_fuente.html"> Enlace.. </a>
+        
+        
+</body>
+</html>

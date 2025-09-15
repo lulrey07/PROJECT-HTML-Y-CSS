@@ -1,5 +1,4 @@
-#ignoraremos la carpeta Css
-
-Css/
+#Dejamos de ignorar la carpeta Css
 #ignoraremos la carpeta .vscode
 .vscode/
+.prueba/
